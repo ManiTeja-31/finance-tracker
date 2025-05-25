@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+button.active mat-icon {
+  color: rgb(240, 240, 225); // or use theme primary color
+}
+
+@media (max-width: 599px) {
+  .title {
+    display: none;
+  }
+}
